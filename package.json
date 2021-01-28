@@ -1,0 +1,37 @@
+{
+  "name": "alarm",
+  "version": "1.0.0",
+  "description": "set the alarms and ringing when alarm is ready",
+  "main": "./src/main.js",
+  "scripts": {
+    "server": "webpack serve --open --hot --inline ./dist/",
+    "build": "webpack && cp package.json dist/ ",
+    "start": "npm run build && npm run server"
+  },
+  "author": "yoojin ha",
+  "license": "MIT",
+  "dependencies": {
+    "flatpickr": "^4.6.9"
+  },
+  "devDependencies": {
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
+}

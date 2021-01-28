@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Ringing :: YOOJIN HA</title>
+    <link rel="shortcut icon" href="#" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <a href="">Ringing Alarm</a>
+        </div>
+    </nav>
+    <div class="main_container" id="div_ringBell">
+        <!--왼쪽 영역 start-->
+        <div class="column time">
+            <!--기준 시간 영역 start-->
+            <div class="currentTime">
+                <h1>기준 시간</h1>
+                <p class="nowtime" id="nowarea"></p>
+                <button class="btn">현재 시간으로 되돌리기</button>
+            </div>
+            <!--기준 시간 영역 end-->
+            <!--알람 설정 영역 start-->
+            <div class="setTime">
+                <h1>알람 설정하기</h1>
+                <!--알람 입력 폼 start-->
+                <form id="insertAlarm" name="insertAlarm">
+                    <div class="group">
+                        <label for="clockMode">시계모드 </label>
+                        <select name="clockMode">
+                            <option value="일반">일반</option>
+                            <option value="진동">진동</option>
+                            <option value="야간">야간</option>
+                        </select>
+                        <label for="alarmMode">알람모드 </label>
+                        <select name="alarmMode">
+                            <option value="일반">일반</option>
+                            <option value="긴급">긴급</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="dateSelector">시간설정 </label>
+                        <input id="dateSelector" name="dateSelector" placeholder="ex)2021년01월15일 12:00" />
+                        <span class="bar"></span>
+                    </div>
+                    <div class="group">
+                        <label for="memo">알람 내용 </label>
+                        <textarea name="memo"></textarea>
+                    </div>
+                </form>
+                <!--알람 입력 폼 end-->
+                    <div class="group">
+                        <button class="btn" id="setAlarm">알람 추가하기</button>
+                    </div>
+                    <div class="group">
+                        <button class="btn" id="setTest">테스트 케이스 추가</button>  
+                    </div>
+            </div>
+            <!--알람 설정 영역 end-->
+        </div>
+        <!--왼쪽 영역 end-->
+        <!--오른쪽 알람 리스트 영역 start-->
+        <div class= "column list">
+            <h1 class= "listTitle">알람 리스트</h1>
+            <ul class="alarmList">
+            </ul>
+        </div>
+        <!--오른쪽 알람 리스트 영역 end-->
+        <!--알람 울릴 때 화면 영역 start-->
+        <div class="over off">
+        </div>
+        <!--알람 울릴 때 화면 영역 end-->
+    </div>
+</body>
+</html>

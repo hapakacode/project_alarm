@@ -1,0 +1,131 @@
+[
+    {                                
+        "alarmAvaliable": true,
+        "alarmMemo": "기능 구현하다 보니, 필요한 기능들이 있어 추가하였습니다.",
+        "alarmMode": "일반",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1610413440000                     
+    },
+    {                                
+        "alarmAvaliable": true,
+        "alarmMemo": "1. 현재 시간으로 되돌리기 기능 추가로 기준 시간 변동 후에 다시 돌아갈 수 있습니다.",
+        "alarmMode": "긴급",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1610519160000                     
+    },
+    {                                
+        "alarmAvaliable": true,
+        "alarmMemo": "2, 알람을 생성 후 끄고 나서 다시 킬 수있도록 하였습니다. 또한 전체 알람 삭제 기능을 추가하여 편리함을 부여했습니다:)",
+        "alarmMode": "일반",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1610590260000                   
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "3. 알람이 울릴때, 10초뒤에는 자동으로 꺼지며 그전에는 버튼을 클릭하여 종료할 수 있습니다.",
+        "alarmMode": "일반",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1610591400000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "카카오에서 합격 메일 받은 날 ♥",
+        "alarmMode": "긴급",
+        "alertType": "진동",
+        "clockMode": "진동",
+        "setTime": 1610674200000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "너무 신나서 코딩 시작한 날 - 기능 3/4  구현 완료",
+        "alarmMode": "일반",
+        "alertType": "진동",
+        "clockMode": "진동",
+        "setTime": 1610752200000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "기능 구현 완료 , 모듈 적용, 웹팩 바벨 적용 ",
+        "alarmMode": "일반",
+        "alertType": "무음",
+        "clockMode": "야간",
+        "setTime": 1610875020000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "웹팩 적용 후 IE에서 정상 작동이 안되어 새벽까지 봤던 날 (시간이 가는 줄 모르고 코딩함)",
+        "alarmMode": "긴급",
+        "alertType": "소리",
+        "clockMode": "야간",
+        "setTime": 1610978400000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "우여곡절 끝에 IE 문제 해결 후 테스트 케이스 작성 및 문서 작성 ",
+        "alarmMode": "일반",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1611054000000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "소리알람 : 안녕하세요 :) ",
+        "alarmMode": "일반",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1611111600000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "소리알람: 최선을 다해서 과제 준비했습니다!",
+        "alarmMode": "긴급",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1611111900000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "진동알람: 시간이 더 주어진다면, 개선점으로는 로딩 속도 단축을 하고싶습니다.",
+        "alarmMode": "일반",
+        "alertType": "진동",
+        "clockMode": "진동",
+        "setTime": 1611112200000        
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "진동알람: 과제를 하면서 오히려 더 많은 걸 배운 것 같아 기회를 주신 점 너무 감사합니다!",
+        "alarmMode": "긴급",
+        "alertType": "진동",
+        "clockMode": "진동",
+        "setTime": 1611112500000        
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "무음알람: 무음은 따로 알람없고, 리스트에서만 아웃처리 됩니당:)",
+        "alarmMode": "일반",
+        "alertType": "무음",
+        "clockMode": "야간",
+        "setTime": 1611112800000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "소리알람: 귀여운 이미지가 기다리고있어요! ",
+        "alarmMode": "긴급",
+        "alertType": "소리",
+        "clockMode": "야간",
+        "setTime": 1611113100000
+    },
+    {
+        "alarmAvaliable": true,
+        "alarmMemo": "꼭 합격 통지 받아서 얼굴 뵙고 싶습니다!! :) ",
+        "alarmMode": "일반",
+        "alertType": "소리",
+        "clockMode": "일반",
+        "setTime": 1611198000000        
+    }
+
+]

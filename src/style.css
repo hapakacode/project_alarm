@@ -1,0 +1,202 @@
+@import "~flatpickr/dist/themes/light.css";
+@import "~flatpickr/dist/ie.css";
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap");
+
+body {
+  margin: 0;
+  background-color: #9dccce;
+  font-family: "Hi Melody", cursive;
+}
+.flatpickr-calendar {
+  z-index: 9;
+}
+a {
+  text-decoration: none;
+  color: #f5d834;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 15px 0px 5px 0px;
+}
+select {
+  padding: 5px 13px;
+  border: none;
+  border-radius: 4px;
+  background-color: #435f4e;
+  color: #ffffff;
+  font-family: "Hi Melody", cursive;
+  font-size: 18px;
+}
+label {
+  color: #334b33;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #334b33;
+}
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #334b33;
+  border-radius: 4px;
+  font-size: 18px;
+  resize: none;
+  font-family: "Hi Melody", cursive;
+}
+
+.over.sound {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  background: url("https://media.giphy.com/media/l0MYrBjH940fhs96o/giphy.gif");
+  text-align: center;
+}
+.over.vibrate {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  background: url("https://media.giphy.com/media/3orieXICLyh0qpuIyQ/giphy.gif");
+  text-align: center;
+}
+
+.navbar {
+  background-color: #263343;
+  padding: 8px 12px;
+}
+.navbar__logo {
+  font-size: 35px;
+  color: #f5d834;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.group {
+  position: relative;
+  margin: 35px 20px 30px;
+}
+.listformat {
+  position: relative;
+  margin: 10px 10px 10px;
+  width: 320px;
+}
+.btn {
+  width: 50%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Hi Melody", cursive;
+  font-size: 20px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #eceecc;
+  border: none;
+}
+.column.time {
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 0px;
+}
+.setTime {
+  width: 100%;
+  height: 60vh;
+  margin: 0;
+  text-align: center;
+  background-color: #9dcead;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.currentTime {
+  width: 100%;
+  height: 17vh;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  text-align: center;
+  background-color: #facb8e;
+}
+.nowtime {
+  font-size: 30px;
+  margin: 0;
+  padding: 5px;
+}
+.column.list {
+  width: 33%;
+  background-color: #9dccce;
+}
+
+.column.list ul {
+  display: table;
+  margin: auto;
+  padding: 0;
+  display: inline-block;
+}
+
+.column.list li {
+  list-style: none;
+  width: 200px;
+  padding: 5px 0px 5px 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  font-size: 17px;
+}
+
+.alarmOff {
+  color: #818181;
+  text-decoration: line-through;
+}
+
+.column.list span {
+  font-weight: bold;
+}
+.column.list button {
+  float: right;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: "Hi Melody", cursive;
+  font-size: 19px;
+}
+.column.list button:hover {
+  background-color: #eceecc;
+  border: none;
+}
+
+.delallbtn {
+  position: relative;
+  top: -10px;
+  left: 100px;
+}
+
+@media screen and (max-width: 680px) {
+  .column.list {
+    width: 100%;
+  }
+  .column.time {
+    width: 100%;
+    height: 70vh;
+  }
+  .group {
+    position: relative;
+    margin: 20px 20px 20px;
+  }
+  .delallbtn {
+    position: relative;
+    top: -10px;
+    left: -10px;
+  }
+}
