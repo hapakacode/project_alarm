@@ -33,15 +33,7 @@
     },
     {
         "alarmAvaliable": true,
-        "alarmMemo": "카카오에서 합격 메일 받은 날 ♥",
-        "alarmMode": "긴급",
-        "alertType": "진동",
-        "clockMode": "진동",
-        "setTime": 1610674200000
-    },
-    {
-        "alarmAvaliable": true,
-        "alarmMemo": "너무 신나서 코딩 시작한 날 - 기능 3/4  구현 완료",
+        "alarmMemo": "코딩 시작한 날 - 기능 3/4  구현 완료",
         "alarmMode": "일반",
         "alertType": "진동",
         "clockMode": "진동",
@@ -81,30 +73,6 @@
     },
     {
         "alarmAvaliable": true,
-        "alarmMemo": "소리알람: 최선을 다해서 과제 준비했습니다!",
-        "alarmMode": "긴급",
-        "alertType": "소리",
-        "clockMode": "일반",
-        "setTime": 1611111900000
-    },
-    {
-        "alarmAvaliable": true,
-        "alarmMemo": "진동알람: 시간이 더 주어진다면, 개선점으로는 로딩 속도 단축을 하고싶습니다.",
-        "alarmMode": "일반",
-        "alertType": "진동",
-        "clockMode": "진동",
-        "setTime": 1611112200000        
-    },
-    {
-        "alarmAvaliable": true,
-        "alarmMemo": "진동알람: 과제를 하면서 오히려 더 많은 걸 배운 것 같아 기회를 주신 점 너무 감사합니다!",
-        "alarmMode": "긴급",
-        "alertType": "진동",
-        "clockMode": "진동",
-        "setTime": 1611112500000        
-    },
-    {
-        "alarmAvaliable": true,
         "alarmMemo": "무음알람: 무음은 따로 알람없고, 리스트에서만 아웃처리 됩니당:)",
         "alarmMode": "일반",
         "alertType": "무음",
@@ -118,14 +86,5 @@
         "alertType": "소리",
         "clockMode": "야간",
         "setTime": 1611113100000
-    },
-    {
-        "alarmAvaliable": true,
-        "alarmMemo": "꼭 합격 통지 받아서 얼굴 뵙고 싶습니다!! :) ",
-        "alarmMode": "일반",
-        "alertType": "소리",
-        "clockMode": "일반",
-        "setTime": 1611198000000        
     }
-
 ]
