@@ -25,9 +25,9 @@ IE 10 이상, 그외의 모든 브라우저 지원
 
 ## 화면 설명 
 
-![screen functions](./img/functions.png)
+![screen functions](./img/functions.PNG)
 
 
 ## 구조 설명
 
-![structure](./img/structure.png)
+![structure](./img/structure.PNG)
